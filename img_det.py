@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 from io import BytesIO
-from keras.preprocess.image import load_img
-from keras.preprocessing.image import img_to_array
+from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.utils import load_img,  img_to_array
 from keras.applications.inception_v3 import preprocess_input
 from keras.models import load_model
 
