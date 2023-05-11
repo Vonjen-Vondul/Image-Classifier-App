@@ -21,7 +21,7 @@ if img_file is not None:
     if st.button('Predict'):
         img=img.resize((256,256))
         i=img_to_array(img)
-        i=preprocess_imput(i)
+        i=preprocess_input(i)
         input_arr=np.array([i])
         
         y_out=np.argmax(model.predict(input_arr))
