@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 import pandas as pd
-from PIL as Image
+from PIL import Image
 from io import BytesIO
 from keras.preprocess.image import load_img
 from keras.preprocessing.image import img_to_array
