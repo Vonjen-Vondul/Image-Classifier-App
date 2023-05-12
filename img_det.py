@@ -12,7 +12,7 @@ from keras.models import load_model
 
 model= load_model('.best_model.h5')
 classes={0:'cat',1:'dog'}
-img_file=st.file_uploader('select an image', type=['jpg','png','jpeg','gif'])
+img_file=st.file_uploader('Select an image of a Dog or a Cat', type=['jpg','png','jpeg','gif'])
 
 if img_file is not None:
     img=Image.open(img_file)
