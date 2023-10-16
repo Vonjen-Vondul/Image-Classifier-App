@@ -1,4 +1,4 @@
-# Image-Detector-App
+# Image-Classifier-App
 packages: tensorflow, numpy, pandas, keras, and PIL.
 
 🔍 Why Image Classification?
